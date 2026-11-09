@@ -1,0 +1,128 @@
+{
+    "app": {
+        "theme": "dark",
+        "start_minimized": false,
+        "minimize_to_tray": false,
+        "start_with_windows": false,
+        "emergency_shortcut": "ctrl+shift+q",
+        "sound_feedback": true,
+        "auto_save": true
+    },
+    "mouse": {
+        "enabled": true,
+        "sensitivity": 1.3,
+        "smoothness": 0.65,
+        "movement_speed": 1.0,
+        "acceleration": 1.1,
+        "click_threshold": 0.055,
+        "drag_hold_sec": 0.4,
+        "double_click_interval": 0.4,
+        "gesture_cooldown": 0.25,
+        "active_area": [
+            0.15,
+            0.15,
+            0.85,
+            0.85
+        ]
+    },
+    "camera": {
+        "device_index": 0,
+        "width": 640,
+        "height": 480,
+        "fps": 30,
+        "detection_confidence": 0.5,
+        "tracking_confidence": 0.5,
+        "mirror": true
+    },
+    "audio": {
+        "enabled": true,
+        "device_index": -1,
+        "clap_sensitivity": 0.7,
+        "noise_floor": 0.02,
+        "clap_timing_window": 1.2,
+        "action_cooldown": 0.6,
+        "clap_actions": {
+            "1": "toggle_mouse",
+            "2": "quick_launch",
+            "3": "virtual_keyboard",
+            "4": "emergency_pause"
+        }
+    },
+    "gestures": {
+        "cursor_move": true,
+        "left_click": true,
+        "drag_and_drop": true,
+        "right_click": true,
+        "double_click": true,
+        "open_palm": true,
+        "closed_fist": true,
+        "menu_hold_time": 0.8
+    },
+    "keyboard": {
+        "hover_duration": 0.4,
+        "selection_cooldown": 0.25,
+        "direct_system_input": true
+    },
+    "quick_launch": [
+        {
+            "id": "youtube",
+            "name": "YouTube",
+            "url": "https://www.youtube.com",
+            "icon": "youtube",
+            "shortcut": "Y",
+            "pinned": true,
+            "usage_count": 0,
+            "last_opened": null
+        },
+        {
+            "id": "googledocs",
+            "name": "Google Docs",
+            "url": "https://docs.google.com",
+            "icon": "googledocs",
+            "shortcut": "D",
+            "pinned": true,
+            "usage_count": 0,
+            "last_opened": null
+        },
+        {
+            "id": "chatgpt",
+            "name": "ChatGPT",
+            "url": "https://chatgpt.com",
+            "icon": "chatgpt",
+            "shortcut": "C",
+            "pinned": true,
+            "usage_count": 0,
+            "last_opened": null
+        },
+        {
+            "id": "claude",
+            "name": "Claude",
+            "url": "https://claude.ai",
+            "icon": "claude",
+            "shortcut": "A",
+            "pinned": true,
+            "usage_count": 0,
+            "last_opened": null
+        },
+        {
+            "id": "github",
+            "name": "GitHub",
+            "url": "https://github.com",
+            "icon": "github",
+            "shortcut": "G",
+            "pinned": true,
+            "usage_count": 0,
+            "last_opened": null
+        },
+        {
+            "id": "site_73c8d51c",
+            "name": "Renamed Platform",
+            "url": "https://newtest.org",
+            "icon": "web",
+            "shortcut": "X",
+            "pinned": true,
+            "usage_count": 0,
+            "last_opened": null
+        }
+    ]
+}

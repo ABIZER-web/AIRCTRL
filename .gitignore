@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+airctrl.log
+airctrl.db
+dist/
+build/
+*.spec.bak
+.vscode/
+.idea/
+.venv/
+env/
+
